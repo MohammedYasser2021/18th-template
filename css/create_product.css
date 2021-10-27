@@ -1,0 +1,47 @@
+.create-product-page form{
+    margin:20px;
+    padding: 15px;
+    background-color: darkslategrey;
+    text-align: center;
+}
+.create-product-page input:not([type="submit"]){
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+.create-product-page fieldset{
+    padding: 10px;
+    overflow: hidden;
+}
+.create-product-page legend{
+     color: #fff;
+     font-size: 30px;
+     font-weight: bold;
+     padding: 0 10px;
+     letter-spacing: 1px;
+     text-transform: capitalize;
+}
+.create-product-page select{
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 300px;
+    display: block;
+    margin-right: auto;
+}
+.create-product-page [type = "submit"]{
+    padding: 10px 30px;
+    text-align: center;
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    margin: 10px 0;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+    display: block;
+    letter-spacing: 1px;
+    width: 150px
+}
